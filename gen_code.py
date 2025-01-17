@@ -13,3 +13,4 @@ def Cgen():
     with open('Cfile.c', 'w') as f:
         f.write(initial)
 
+Cgen()
